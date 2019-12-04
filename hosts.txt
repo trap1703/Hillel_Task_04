@@ -1,0 +1,14 @@
+
+[slave]
+ub1  ansible_host=ec2-18-218-70-10.us-east-2.compute.amazonaws.com 
+ub2  ansible_host=ec2-18-222-196-47.us-east-2.compute.amazonaws.com
+ub3  ansible_host=ec2-3-19-141-185.us-east-2.compute.amazonaws.com 
+
+[kill]
+#ub4 ansible_host=ec2-18-222-48-237.us-east-2.compute.amazonaws.com
+ub5   ansible_host=ec2-18-220-237-37.us-east-2.compute.amazonaws.com
+
+[winslave]
+win2012 ansible_host=ec2-3-133-12-247.us-east-2.compute.amazonaws.com
+win2016 ansible_host=ec2-18-222-232-138.us-east-2.compute.amazonaws.com
+
