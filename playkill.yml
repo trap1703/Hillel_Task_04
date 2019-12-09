@@ -35,12 +35,12 @@
       mode: 0755
   - name: download & unarchive
     unarchive:
-      src: http://apache.cp.if.ua/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz
+      src: https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz
       dest: /opt/tomcat
       remote_src: yes
       extra_opts: [--strip-components=1]
   - name: Configure Tomcat server
-    template: src=server.xml dest=/usr/share/tomcat/conf/
+    template: src=server.xml dest=/opt/tomcat/conf/
 
   - name: Configure Tomcat users
     template: src=tomcat-users.xml dest=/opt/tomcat/conf/

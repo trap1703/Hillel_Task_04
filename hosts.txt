@@ -6,7 +6,7 @@ ub3  ansible_host=ec2-3-19-141-185.us-east-2.compute.amazonaws.com
 
 [kill]
 #ub4 ansible_host=ec2-18-222-48-237.us-east-2.compute.amazonaws.com
-ub5   ansible_host=ec2-18-220-237-37.us-east-2.compute.amazonaws.com
+ub5  ansible_host=ec2-3-136-11-107.us-east-2.compute.amazonaws.com
 
 [winslave]
 win2012 ansible_host=ec2-3-133-12-247.us-east-2.compute.amazonaws.com
